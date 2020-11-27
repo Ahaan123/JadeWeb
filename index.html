@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<title>Jade eSports</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/754017474382528592/781863080233533451/1605849741806.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Jade eSports</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#games" class="w3-bar-item w3-button"> GAMES</a>
+      <a href="#players" class="w3-bar-item w3-button"> PLAYERS</a>
+      <a href="#contact" class="w3-bar-item w3-button"> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#games" onclick="w3_close()" class="w3-bar-item w3-button">GAMES</a>
+  <a href="#players" onclick="w3_close()" class="w3-bar-item w3-button">PLAYERS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="background-image: url('https://securitybrief.co.nz/uploads/story/2020/06/22/gamingggg.jpg');">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small typewrite" data-type='[ "Jade eSports", "The Future of Gaming", "The future of eSports"]'>Jade eSports</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium webquote">Start something that matters</span><br>
+    <span class="w3-large">“Keep Calm and Blame it on the Lag"    </span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more about Jade eSports</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">About Jade eSports</h3>
+  <p class="w3-center w3-large">What is Jade?</p>
+  <!--<div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>-->
+  <p class="w3-center w3-large">Jade eSports is an eSports Team which was created by Magnus and his friends on 25th of September 2020. The major aim was to create a place where people could find players to play with and improve their gameplay and progress in their gaming career. JADE is an eSports organization. What is an eSports Organization? Well an eSports describes the world of competitive, organized video gaming. Competitors from different leagues or teams face off in the same games that are popular. Jade being an eSports team participates in this tournaments. 
+    The early 7 members of Jade were initially were part of a team called the '7 Deadly Sins'. But later the team grew and was renamed to Jade eSports. But, still the first 7 members are still attached to the previous name 7 deadly sins.   </p>
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="games">
+  <h3 class="w3-center">Games</h3>
+  <div class="w3-card w3-quarter">
+    <img src="https://cdn.dribbble.com/users/2348/screenshots/10696082/valorant_1_4x.png" style="width: 100%;height: 40vh;">
+    <h4 class="w3-center">Valorant</h4>
+  </div>
+  <div class="w3-card w3-quarter">
+    <img src="https://1000logos.net/wp-content/uploads/2017/12/CSGO-Symbol.jpg" style="width: 100%;height: 40vh;">
+    <h4 class="w3-center">CS GO</h4>
+  </div>
+  <div class="w3-card w3-quarter">
+    <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/09/08/pubg-884197-1599582953.png?itok=MvkEU4dn" style="width: 100%;height: 40vh;">
+    <h4 class="w3-center">PUBG</h4>
+  </div>
+  <div class="w3-card w3-quarter">
+    <img src="https://i.pinimg.com/originals/f1/71/f6/f171f6a1b8b2aba7115368630f3e2a0e.png" style="width: 100%;height: 40vh;">
+    <h4 class="w3-center">CODM</h4>
+  </div>
+</div>
+
+<div class="w3-container" style="padding: 128px 16px;" id="players">
+  <h3 class="w3-center">Players</h3>
+  <ul class="w3-ul w3-card">
+    <li class="w3-black w3-large w3-hover-opacity">Jade | Magnus</li>
+    <li class="w3-large w3-hover-opacity">Jade | Nexus</li>
+    <li class="w3-dark-grey w3-larg w3-hover-opacity">Jade | MAANMOA</li>
+    <li class="w3-large w3-hover-opacity">Jade | Heist</li>
+    <li class="w3-black w3-large w3-hover-opacity">Jade | Panther</li>
+    <li class="w3-large w3-hover-opacity">Jade | Aura</li>
+    <li class="w3-large w3-dark-grey w3-hover-opacity">Jade | Haze</li>
+    <li class="w3-large w3-hover-opacity">Jade | Aspect</li>
+    <li class="w3-large w3-black w3-hover-opacity">Jade | Anky</li>
+    <li class="w3-large w3-hover-opacity">Jade | Scarcy</li>
+    <li class="w3-large w3-dark-grey w3-hover-opacity">Jade | Lespank</li>
+    <li class="w3-large w3-hover-opacity">Jade | Sosoul</li>
+    <li class="w3-large w3-black w3-hover-opacity">Jade | Healer</li>
+
+
+  </ul>
+</div>
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: idk@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Jade eSports 2020</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
+
+</body>
+</html>
